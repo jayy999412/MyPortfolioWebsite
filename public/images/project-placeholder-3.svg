@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Project placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1120"/>
+      <stop offset="1" stop-color="#151F32"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="rgba(148,163,184,0.08)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <rect width="800" height="500" fill="url(#grid)"/>
+  <circle cx="640" cy="110" r="160" fill="#38BDF8" opacity="0.08"/>
+  <circle cx="140" cy="420" r="140" fill="#818CF8" opacity="0.08"/>
+  <g transform="translate(310 180)">
+    <rect x="0" y="0" width="180" height="130" rx="14" fill="none" stroke="url(#accent)" stroke-width="3"/>
+    <path d="M60 45 L40 65 L60 85" fill="none" stroke="#38BDF8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M120 45 L140 65 L120 85" fill="none" stroke="#818CF8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M100 38 L80 92" fill="none" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <text x="400" y="365" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="600" fill="#F8FAFC">Project 01</text>
+  <text x="400" y="398" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" fill="#94A3B8">Replace image path in src/data/portfolio.js</text>
+</svg>
